@@ -4,8 +4,25 @@
 .contato {
     font-family: 'Ubuntu';
     background-color: #031C0D;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
+}
+
+.contato h2 {
+  color:#00B388;
+}
+
+.contato-subtitulo {
+  color:#00B388;
+  font-size:16px;
+}
+
+.contato-icones {
+    padding-top: 30px;
+}
+
+.icone-texto {
+  display: inline-block;
 }
 
 .gap {
