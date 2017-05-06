@@ -4,8 +4,9 @@
 .contato {
     font-family: 'Ubuntu';
     background-color: #031C0D;
-    font-size: 14px;
+    font-size: 13px;
     color: white;
+    padding-bottom: 15px;
 }
 
 .contato h2 {
@@ -18,7 +19,7 @@
 }
 
 .contato-icones {
-    padding-top: 30px;
+    /*font-size: 2vw;*/
 }
 
 .icone-texto {
@@ -28,6 +29,7 @@
 .gap {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 a {
