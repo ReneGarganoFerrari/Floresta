@@ -1,1 +1,36 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.contato {
+    font-family: 'Ubuntu';
+    background-color: #031C0D;
+    font-size: 14px;
+    color: white;
+}
+
+.contato h2 {
+  color:#00B388;
+}
+
+.contato-subtitulo {
+  color:#00B388;
+  font-size:16px;
+}
+
+.contato-icones {
+    padding-top: 30px;
+}
+
+.icone-texto {
+  display: block;
+}
+
+.gap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white !important;
+    text-decoration: none!important;
+}
