@@ -42,7 +42,7 @@ html, body {
 }
 
 .BACK1 {
-  background-image: url("../Imagens/back6.jpg");
+  background-image: url("../Imagens/back3.jpg");
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -51,13 +51,20 @@ html, body {
 }
 
 .BACK2 {
-  background-color: #F3EFF5;
+  background-color: #E1EFF6;
   min-height: 55%;
   padding: 30px 0;
 }
 
 .BACK1 img {
-  size: 50%;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.BACK1 p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
 }
 
 
@@ -80,8 +87,32 @@ html, body {
   border-color: #0D0A0B;
 }
 .BACK2 p{
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "breeSerif";
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "breeSerif";
+}
+
+.BACK3 {
+  background-color: #59656F;
+  min-height: 55%;
+  padding: 30px 0;
+}
+
+.BACK3 h2 {
+  font-family: "breeSerif";
+  text-align: center;
+  font-size: 30px;
+  color: #0D0A0B;
+  color: white;
+
+}
+
+.BACK3 p {
+  color: white;
+  font-family: "breeSerif";
+}
+
+.BACK3 h4 {
+  font-family: "breeSerif";
 }
