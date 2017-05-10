@@ -42,7 +42,7 @@ html, body {
 }
 
 .BACK1 {
-  background-image: url("../Imagens/back3.jpg");
+  background-image: url("../Imagens/back6.jpg");
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -52,19 +52,12 @@ html, body {
 
 .BACK2 {
   background-color: #F3EFF5;
-  min-height: 70%;
+  min-height: 55%;
   padding: 30px 0;
 }
 
 .BACK1 img {
-  margin-top: 15%;
-  margin-left: 15%;
-}
-
-.BACK1 p {
-  text-align: center;
-  font-size: 20px;
-  color: white;
+  size: 50%;
 }
 
 
@@ -86,12 +79,9 @@ html, body {
   border-width: 1px;
   border-color: #0D0A0B;
 }
-
-.BACK2 p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: "breeSerif";
+.BACK2 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "breeSerif";
 }
-
-
