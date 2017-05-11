@@ -43,7 +43,7 @@ html, body {
 
 .BACK1 {
   background-image: url("../Imagens/back3.jpg");
-  min-height: 60%;
+  min-height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,12 +61,10 @@ html, body {
 }
 
 .BACK1 p {
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   color: white;
-  margin-top: 30%;
-  margin-left: -20%;
-  margin-right: 20%;
+  margin-bottom: 10%;
   font-family: "njnaruto";
 }
 
@@ -128,8 +126,8 @@ html, body {
 
 
 .transicao {
-  background-image: url("../Imagens/DSC_0029.jpg");
-  min-height: 40%;
+  background-image: url("../Imagens/transac.jpg");
+  min-height: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,8 +135,8 @@ html, body {
 }
 
 .transicao2 {
-  background-image: url("../Imagens/quemsomos.jpg");
-  min-height: 40%;
+  background-image: url("../Imagens/back1edt.jpg");
+  min-height: 50%;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
