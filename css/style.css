@@ -94,6 +94,12 @@ html, body {
 
 }
 
+@font-face {
+  font-family: "ArvinR";
+  src: url("../fonts/Arvin Regular.ttf") format("truetype");
+
+}
+
 
 .BACK2 h2 {
   font-family: "breeSerif";
@@ -111,7 +117,7 @@ html, body {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "breeSerif";
+  font-family: "ArvinR";
 }
 
 .BACK3 {
@@ -165,4 +171,28 @@ html, body {
     margin-left: 0%;
     margin-right: 0%;
   }
+}
+
+
+.bgParallax {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    text-shadow:0 0 10px rgba(0,0,0,0.7);
+
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#BACKa1 {background-image: url("../Imagens/back3.jpg");}
+
+#BACKa2 {background-image: url("../Imagens/back1.jpg");}
+
+#BACK2 {
+  background-color: #E1EFF6;
+  min-height: 55%;
+  padding: 30px 0;
 }
