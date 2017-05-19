@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .navbar {
   font-family: 'BreeSerif';
@@ -17,6 +16,7 @@
 
 .contato h2 {
   color:#00B388;
+  font-family: 'BreeSerif';
 }
 
 .contato-subtitulo {
@@ -79,6 +79,12 @@ html, body {
   color: white;
   margin-bottom: 10%;
   font-family: "Arvin";
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-R.ttf") format("truetype");
+
 }
 
 
