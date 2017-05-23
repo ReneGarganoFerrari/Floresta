@@ -1,4 +1,4 @@
-$('div.bgParallax').each(function(){
+$('div.BACK1').each(function(){
     var $obj = $(this);
 
     $(window).scroll(function() {

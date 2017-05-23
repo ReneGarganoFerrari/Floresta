@@ -63,14 +63,9 @@ html, body {
 }
 
 .BACK1 img {
-  margin-left: 15%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
-.BACK1 header img {
-  margin-left: -100%;
-  margin-top: -10%;
-}
 
 .BACK1 p {
   text-align: center;
@@ -110,6 +105,8 @@ html, body {
   src: url("../fonts/Arvin Regular.ttf") format("truetype");
 
 }
+
+font-family: 'Droid Sans', sans-serif;
 
 
 .BACK2 h2 {
@@ -173,16 +170,35 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-@media only screen and (max-width: 1024px) {
-  .BACK1 p {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
+@media only screen and (max-width: 1199px){
+    .contato .icone-texto{
+      text-align: center;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .BACK1 img {
+    margin-top: 50%;
+  }
+
+  .transicao {
+    min-height: 30%;
+  }
+
+  .transicao2 {
+    min-height: 30%;
+  }
+
+  .BACK2 {
+    min-height: 25%;
+  }
+
+  .BACK2 .container{
+    margin-top: 5%;
+  }
+
+
+
+
 
 
 .bgParallax {
@@ -206,4 +222,9 @@ html, body {
   background-color: #E1EFF6;
   min-height: 55%;
   padding: 30px 0;
+}
+
+.BACK3 p {
+  font-family: "Droid Sans";
+
 }
