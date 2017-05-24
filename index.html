@@ -9,31 +9,40 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="shortcut icon" type="image/png" href="imagens/ico.png"  />
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
+<script>
+$(function() {
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 70) {
+      $(".navbar-fixed-top").addClass("navbar-custom");
+    } else {
+      $(".navbar-fixed-top").removeClass("navbar-custom");
+    }
+  });
+});
+</script>
 
-
-
-
-<!--Início -->
- <section class="BACK1">
+<!--menu-->
     <header>
-      <nav class="navbar navbar-fixed-top">
+      <nav class="navbar nav navbar-fixed-top">
         <div class="container">
-          <div class="navbar navbar-header">
-            <button type="button" class="navbar navbar-inverse navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <div class="navbar nav navbar-header">
+            <button type="button" class="navbar nav navbar-inverse navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="navbar-default icon-bar"></span>
               <span class="navbar-default icon-bar"></span>
-              <span class="navbar-default icon-bar"></span>
+              <span class="navbar-default icon-bar"></span>                        
             </button>
-            <a href="#home" class="navbar navbar-brand"><img height="26" src="Imagens/sologo.png"></a>
-          </div>
-        <div class="navbar collapse navbar-collapse" id="myNavbar">
+            <a href="#home" class="navbar nav navbar-brand"><img height="26" src="Imagens/sologo.png"></a>
+            </div>
+        <div class="navbar nav collapse navbar-collapse" id="myNavbar">
           <ul class="navbar nav navbar-right navbar-nav">
             <li><a class="page-scroll" href="#home">INÍCIO</a></li>
             <li><a class="page-scroll" href="#quemsomos">SOBRE NÓS</a></li>
             <li><a class="page-scroll" href="#services">NOSSOS SERVIÇOS</a></li>
+            <li><a class="page-scroll" href="#">PARCEIROS</a></li>
             <li><a class="page-scroll" href="#contato">CONTATO</a></li>
           </ul>
       </div>
@@ -41,6 +50,7 @@
   </nav>
 </header>
 
+<section class="BACK1">
     <div class = "container-fluid">
       <div class = "par">
         <div class="row">
