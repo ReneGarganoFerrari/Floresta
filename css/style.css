@@ -150,6 +150,7 @@ font-family: 'Droid Sans', sans-serif;
 .linha {
   border-width: 1px;
   border-color: #0D0A0B;
+  width: 50%;
 }
 .BACK2 p{
   margin-bottom: 20px;
@@ -175,7 +176,7 @@ font-family: 'Droid Sans', sans-serif;
 
 .BACK3 p {
   color: white;
-  font-family: "breeSerif";
+  font-family: "Droid Sans";
 }
 
 .BACK3 h4 {
@@ -225,8 +226,7 @@ font-family: 'Droid Sans', sans-serif;
   .BACK2 .container{
     margin-top: 5%;
   }
-
-
+}
 
 
 
@@ -252,9 +252,4 @@ font-family: 'Droid Sans', sans-serif;
   background-color: #E1EFF6;
   min-height: 55%;
   padding: 30px 0;
-}
-
-.BACK3 p {
-  font-family: "Droid Sans";
-
 }
