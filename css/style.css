@@ -24,6 +24,7 @@
 }
 
 .navbar-custom {
+  height: 50px;
   padding: 4px;
   background: rgb(0,0,0);
   -webkit-transition: background .6s linear;
@@ -75,6 +76,10 @@ a {
 
 html, body {
   height: 100%;
+}
+
+header img {
+  margin-top: -40%;
 }
 
 .BACK1 {
