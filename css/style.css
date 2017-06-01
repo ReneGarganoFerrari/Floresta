@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.heading {
+  color: #00B388;
+}
+
 .navbar {
   font-family: 'BreeSerif';
   letter-spacing: 1px;
@@ -188,7 +192,8 @@ header img {
 }
 
 .BACK3 {
-  background-color: #59656F;
+  background-color: #031C0D;
+  font-size: 15px;s
   min-height: 55%;
   padding: 30px 0;
 }
@@ -197,9 +202,7 @@ header img {
   font-family: "breeSerif";
   text-align: center;
   font-size: 30px;
-  color: #0D0A0B;
-  color: white;
-
+  color: #00B388;
 }
 
 .BACK3 p {

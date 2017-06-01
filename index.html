@@ -13,17 +13,7 @@
 </head>
 <body>
 
-<script>
-$(function() {
-  $(window).on("scroll", function() {
-    if($(window).scrollTop() > 50) {
-      $(".navbar-fixed-top").addClass("navbar-custom");
-    } else {
-      $(".navbar-fixed-top").removeClass("navbar-custom");
-    }
-  });
-});
-</script>
+<!-- Coloquei o script que estava aqui no fim do body -->
 
 <!--menu-->
     <header>
@@ -33,7 +23,7 @@ $(function() {
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="navbar-default icon-bar"></span>
               <span class="navbar-default icon-bar"></span>
-              <span class="navbar-default icon-bar"></span>                        
+              <span class="navbar-default icon-bar"></span>
             </button>
             <a href="#home" class="navbar-brand"><img height="26" src="Imagens/sologo.png"></a>
             </div>
@@ -50,36 +40,39 @@ $(function() {
 </header>
 
 <section class="BACK1">
-    <div class = "container-fluid">
-      <div class = "par">
-        <div class="row">
-    <a id = "home"></a>
-    <div class = "container-fluid">
-      <div class = "par">
-        <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-            <center><img src="Imagens/LOGO3.png">
-            <p>Frase aleatória de impacto com fonte bacana e algum efeito.</p></center>
-          </div>
-          <div class="col-md-4">
+  <div class = "container-fluid">
+    <div class = "par">
+      <div class="row">
+        <a id = "home"></a>
+        <div class = "container-fluid">
+          <div class = "par">
+            <div class="row">
+              <div class="col-md-4">
+              </div>
+              <div class="col-md-4 row text-center">
+                <img src="Imagens/LOGO3.png">
+                <p>Frase aleatória de impacto com fonte bacana e algum efeito.</p>
+              </div>
+              <div class="col-md-4">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 
 
 
 <!--Quem somos -->
 
-  <section class="BACK2">  
-    <h5><a id="quemsomos"></a></h5>
+  <section class="BACK2">
+    <a id="quemsomos"></a>
     <div class="container">
       <div class="row text-center">
-        <h2 class="section-heading text-info">Quem Somos</h2>
+        <h2>Quem Somos</h2>
       </div>
       <hr class="linha">
       <div class="row">
@@ -115,54 +108,37 @@ $(function() {
 
 
     <!--Serviços -->
-
-  <section class="BACK3" style="background: #031C0D; font-size: 15px; " >  
-    <h5><a id="services"></a></h5>
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-                        <h2 class="section-heading" style=" color: #00B388; font: serif; ">Nossos Serviços</h2>
-                        <hr class="code-primary">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <div class="service">
-                            <div class="icon-holder">
-                            </div>
-                            <h4 class="heading" style="color: #00B388; "><img src="Imagens/ecology.png" > <br><br> Arborização Urbana</h4>
-                            <p class="description">Tem como objetivo escolher a árvore que melhor se adapta ao local, a fim de criar um ambiente agradável nos centros urbanos, respeitando as normas e leis vigentes, bem como harmonizando diferentes espécies.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <div class="service">
-                            <div class="icon-holder">
-                            </div>
-                            <h4 class="heading" style="color: #00B388; "> <img src="Imagens/recycling.png" > <br><br> Inventário Florestal</h4>
-                            <p class="description">É uma importante ferramenta na obtenção de informações de quantidade e qualidade de recursos florestais. Através dele pode ser estimado o volume de madeira explorada e estocada; acompanhamento no desenvolvimento de florestas e percentual de sobrevivência de mudas em campo.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <div class="service">
-                            <div class="icon-holder">
-                            </div>
-                            <h4 class="heading" style="color: #00B388; "><img src="Imagens/sprout-1.png" > <br><br>Cadastro Ambiental Rural (CAR)</h4>
-                            <p class="description">É um registro eletrônico, obrigatório para todos os imóveis rurais, que forma uma base de dados estratégica para o controle, monitoramento e combate ao desmatamento das florestas e demais formas de vegetação nativas do Brasil, bem como para planejamento ambiental e econômico dos imóveis rurais.</p>
-                        </div>
-                    </div>
-                     <div class="col-lg-6 col-md-6 text-center">
-                        <div class="service">
-                            <div class="icon-holder">
-                         </div>
-                            <h4 class="heading" style="color: #00B388; "><img src="Imagens/think.png"> <br><br> Educação Ambiental</h4>
-                            <p class="description"> A educação ambiental deve ser entendida como os processos por meio dos quais o indivíduo e a coletividade constroem valores sociais, conhecimentos, habilidades, atitudes e competências voltadas à conservação do meio ambiente, bem de uso comum do povo, essencial à sadia qualidade de vida e sua sustentabilidade.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <section class="BACK3">
+    <a id="services"></a>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+          <h2 class="heading">Nossos Serviços</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow animated bounceIn" src="Imagens/ecology.png" > <br><br> Arborização Urbana</h4>
+          <p class="description">Tem como objetivo escolher a árvore que melhor se adapta ao local, a fim de criar um ambiente agradável nos centros urbanos, respeitando as normas e leis vigentes, bem como harmonizando diferentes espécies.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"> <img class="wow animated bounceIn" src="Imagens/recycling.png" > <br><br> Inventário Florestal</h4>
+          <p class="description">É uma importante ferramenta na obtenção de informações de quantidade e qualidade de recursos florestais. Através dele pode ser estimado o volume de madeira explorada e estocada; acompanhamento no desenvolvimento de florestas e percentual de sobrevivência de mudas em campo.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow animated bounceIn" src="Imagens/sprout-1.png" > <br><br>Cadastro Ambiental Rural (CAR)</h4>
+          <p class="description">É um registro eletrônico, obrigatório para todos os imóveis rurais, que forma uma base de dados estratégica para o controle, monitoramento e combate ao desmatamento das florestas e demais formas de vegetação nativas do Brasil, bem como para planejamento ambiental e econômico dos imóveis rurais.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow animated bounceIn" src="Imagens/think.png"> <br><br> Educação Ambiental</h4>
+          <p class="description"> A educação ambiental deve ser entendida como os processos por meio dos quais o indivíduo e a coletividade constroem valores sociais, conhecimentos, habilidades, atitudes e competências voltadas à conservação do meio ambiente, bem de uso comum do povo, essencial à sadia qualidade de vida e sua sustentabilidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -186,8 +162,8 @@ $(function() {
     <div class="container">
       <div class="row">
         <div class="row text-center">
-          <h2 class="animated fadeInLeft wow">Contatos</h2>
-           <hr width="50%" style="color:#00B388;">
+          <h2 class="animated  wow">Contatos</h2>
+           <hr width="50%">
         </div>
         <div class="col-lg-10 col-lg-offset-1">
           <div class="col-lg-7 text-center">
@@ -240,6 +216,18 @@ $(function() {
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();
+  </script>
+
+  <script>
+  $(function() {
+    $(window).on("scroll", function() {
+      if($(window).scrollTop() > 50) {
+        $(".navbar-fixed-top").addClass("navbar-custom");
+      } else {
+        $(".navbar-fixed-top").removeClass("navbar-custom");
+      }
+    });
+  });
   </script>
 </body>
 </html>
