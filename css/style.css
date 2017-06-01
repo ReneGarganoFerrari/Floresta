@@ -67,6 +67,10 @@
     padding-bottom: 15px;
 }
 
+.contato p {
+  font-family: "Droid Sans"
+}
+
 .contato h2 {
   color:#00B388;
   font-family: 'BreeSerif';
@@ -163,14 +167,11 @@ header img {
 
 }
 
-font-family: 'Droid Sans', sans-serif;
-
-
-.BACK2 h2 {
+.BACK2 h2{
   font-family: "breeSerif";
   text-align: center;
   font-size: 30px;
-  color: #0D0A0B;
+  color: #31708f;
 
 }
 
@@ -183,7 +184,7 @@ font-family: 'Droid Sans', sans-serif;
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "ArvinR";
+  font-family: "Droid Sans";
 }
 
 .BACK3 {
