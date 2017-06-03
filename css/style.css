@@ -246,11 +246,13 @@ header img {
   .BACK1 img {
     margin-top: 50%;
   }
+}
 
 @media only screen and (max-width: 767px) {
  #myNavbar{
   background-color: rgb(0,0,0);
   }
+}
 
 @media only screen and (max-width: 767px) {
  .navbar-custom .navbar-brand{
@@ -258,6 +260,7 @@ header img {
   max-height: 30px;
   max-width: 40px;
   }
+}
 
 @media only screen and (max-width: 767px) {
  .navbar-brand{
@@ -265,6 +268,7 @@ header img {
   max-height: 30px;
   max-width: 40px;
   }
+}
 
 @media only screen and (max-width: 767px) {
  .navbar-toggle{
@@ -272,6 +276,7 @@ header img {
   max-width: 35px;
   max-height: 23px;
   overflow: visible;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -280,17 +285,20 @@ header img {
   max-width: 35px;
   max-height: 30px;
   overflow: visible;
+  }
 }
 
 @media only screen and (max-width: 767px) {
  .navbar-collapse{
   margin-top: 10px;
   }
+}
 
 @media only screen and (max-width: 767px) {
  .navbar-custom .navbar-collapse{
   margin-top: 15px;
   }
+}
 
 @media only screen and (max-width: 767px) {
  .navbar-fixed-top{
@@ -337,8 +345,63 @@ header img {
 
 #BACKa2 {background-image: url("../Imagens/back1.jpg");}
 
-#BACK2 {
+.BACK4 {
   background-color: #E1EFF6;
   min-height: 55%;
   padding: 30px 0;
+}
+
+.BACK4 h2{
+  font-family: "breeSerif";
+  text-align: center;
+  font-size: 30px;
+  color: #31708f;
+
+}
+
+#parc {
+  margin-top: : -30%;
+}
+
+.ccr {
+  margin-top: 30%;
+
+}
+
+.compact {
+  margin-top: 10%;
+
+}
+
+.nejesm {
+  margin-top: 20%;
+
+}
+
+.fejers {
+  margin-top: 0%; 
+
+}
+
+@media only screen and (max-width: 1199px){
+  .ccr {
+    margin-top: 10%;
+
+  }
+
+  .compact {
+    margin-top: 10%;
+
+  }
+
+  .nejesm {
+    margin-top: 10%;
+
+  }
+
+  .fejers {
+    margin-top: 10%; 
+    margin-bottom: 10%;
+
+  }
 }
