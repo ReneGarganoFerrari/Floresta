@@ -29,11 +29,11 @@
             </div>
         <div class="navbar collapse navbar-collapse" id="myNavbar">
           <ul class="navbar navbar-right navbar-nav">
-            <li><a class="page-scroll" href="#home">INÍCIO</a></li>
-            <li><a class="page-scroll" href="#quemsomos">SOBRE NÓS</a></li>
-            <li><a class="page-scroll" href="#services">NOSSOS SERVIÇOS</a></li>
-            <li><a class="page-scroll" href="#parc">PARCEIROS</a></li>
-            <li><a class="page-scroll" href="#contato">CONTATO</a></li>
+            <li data-toggle="collapse" data-target=".in"><a class="page-scroll" href="#home">INÍCIO</a></li>
+            <li data-toggle="collapse" data-target=".in"><a class="page-scroll" href="#quemsomos">QUEM SOMOS</a></li>
+            <li data-toggle="collapse" data-target=".in"><a class="page-scroll" href="#services">NOSSOS SERVIÇOS</a></li>
+            <li data-toggle="collapse" data-target=".in"><a class="page-scroll" href="#parc">PARCEIROS</a></li>
+            <li data-toggle="collapse" data-target=".in"><a class="page-scroll" href="#contato">CONTATO</a></li>
           </ul>
       </div>
     </div>
@@ -68,54 +68,158 @@
 
 
 <!--Quem somos -->
-  <section class="BACK2">
-    <a class="offset" id="quemsomos"></a>
+   <section id="quemsomos" class="BACK2">
     <div class="container">
       <div class="row text-center">
-        <h2>Quem Somos</h2>
+        <h2 class="section-heading text-info">Quem Somos</h2>
       </div>
       <hr class="linha">
+      </hr>
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
          <p>   Criada em 18 de maio de 1998 por alunos da graduação do curso de Engenharia Florestal da UFSM, tem o intuito de realizar projetos referentes à área florestal e ambiental, buscando a excelência em seus serviços. </p>
 
         <div class="col-lg-4 col-md-4 col-sm-4">
-         <button type="button" class="btn btn-success btn-x1 wow bounceIn grow gap" data-toggle="modal" data-target="#Empresa" style="visibility: visible; animation-name: bounceIn;">A Empresa</button></div>
+         <button type="button" class="btn btn-success btn-lg wow bounceIn grow gap" data-toggle="modal" data-target="#Empresa" style="visibility: visible; animation-name: bounceIn;">A Empresa</button></div>
         <div class="col-lg-4 col-md-4 col-sm-4">
-          <button type="button" class="btn btn-primary btn-x1 wow bounceIn grow gap" data-toggle="modal" data-target= "#diretoria" style="visibility: visible;animation-name: bounceIn;"> Diretoria</button>
+          <button type="button" class="btn btn-primary btn-lg wow bounceIn grow gap" data-toggle="modal" data-target= "#Diretoria" style="visibility: visible;animation-name: bounceIn;"> Diretoria</button>
          </div>
          <div class="col-lg-4 col-md-4 col-sm-4">
-           <button type="button" class="btn btn-info btn-x1 wow bounceIn grow gap" data-toggle="modal" data-target= "#omej" style="visibility: visible;animation-name: bounceIn;"> O MEJ</button>
+           <button type="button" class="btn btn-info btn-lg wow bounceIn grow gap" data-toggle="modal" data-target= "#omej" style="visibility: visible;animation-name: bounceIn;"> O MEJ</button>
          </div>
         </div>
 
       </div>
-
+      
     </div>
   </section>
+<!-- Modal -->
+  <div class="modal fade" id="Empresa" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center"> <b> Empresa </b></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+           <div class="col-lg-11 col-md-12">
+             <p class="text-justify">&emsp;&emsp; A Floresta Jr. tem por objetivo antecipar a realidade profissional dos estudantes de graduação formando profissiona/is capacitados e comprometidos por meio do desenvolvimento de projetos na área florestas envolvendo ciratividade e uso de tecnologia</p>
+           </div>
+          </div>
+             <div class="row text-center" >
+                 <div class="col-lg-5 col-md-4 col-xs-12">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center"><b><span class="fa fa-fw fa-heart"></span>&nbsp;VALORES</b></div>
+                            <div class="panel-body">
+                             <ul>
+                                <li>Ética</li>
+                                <li>Espírito de Equipe</li>
+                                <li>Comprometimento</li>
+                                <li>Inovação</li>
+                                <li>Responsabilidade social e ambiental</li>                                            
+                             </ul>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row text-center" >
+                  <div class="col-lg-5 col-md-4 col-xs-12">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center"><b><span class="fa fa-fw fa-rocket"></span>&nbsp;MISSÃO</b></div>
+                            <div class="panel-body">
+                             <ul>
+                                <li>missão 1</li>
+                                <li>missão 2 </li>
+                                <li>missão3</li>                                           
+                             </ul>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="row text-center" >
+                 <div class="col-lg-5 col-md-4 col-xs-12">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center"><b><span class="fa fa-fw fa-eye"></span>&nbsp;VISÃO</b></div>
+                            <div class="panel-body">
+                             <ul>
+                                <li>visão1 </li>
+                                <li>visão2</li>
+                                <li>visão3 </li>                                           
+                             </ul>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="modal fade" id="Diretoria" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center"> <b> A Diretoria </b></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+           <div class="col-lg-11 col-md-12">
+             <p class="text-justify">&emsp;&emsp; algum texto com as diretorias</p>
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+    <div class="modal fade" id="omej" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center"> <b>O Movimento Empresa Junior </b></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+           <div class="col-lg-11 col-md-12">
+             <p class="text-justify">&emsp;&emsp; algum texto sobre o MEJ</p>
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 
+</div>
 
 
 <!--Transição 1 -->
   <section class="transicao2">
-
   </section>
-
-
-
-
-
 
     <!--Serviços -->
   <section class=" BACK3">
     <a class="offset" id="services"></a>
     <div class="container">
       <div class="row text-center">
-        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-          <h2 class="heading">Nossos Serviços</h2>
-          <hr>
-        </div>
+        <h2 class="heading">Nossos Serviços</h2>
+        <hr style="width: 50%;">
       </div>
     </div>
     <div class="container">
@@ -135,6 +239,22 @@
         <div class="col-lg-6 col-md-6 text-center">
           <h4 class="heading"><img class="wow bounceIn" src="Imagens/think.png"> <br><br> Educação Ambiental</h4>
           <p class="description"> A educação ambiental deve ser entendida como os processos por meio dos quais o indivíduo e a coletividade constroem valores sociais, conhecimentos, habilidades, atitudes e competências voltadas à conservação do meio ambiente, bem de uso comum do povo, essencial à sadia qualidade de vida e sua sustentabilidade.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow bounceIn" src="Imagens/trees.png"> <br><br> Projeto de Recuperação de Área Degradada – PRAD</h4>
+          <p class="description"> Conjunto de medidas que propiciarão à área degradada condições de estabelecer um novo equilíbrio dinâmico, com solo apto para uso futuro e paisagem esteticamente harmoniosa.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow bounceIn" src="Imagens/valley.png"> <br><br>  Levantamento fitossociológico</h4>
+          <p class="description"> Realizado através da avaliação de diversos parâmetros de uma floresta que expressam a estrutura horizontal da mesma. Além de informações exclusivamente qualitativas, como a composição florística da comunidade, os parâmetros quantitativos assumem uma posição importante no estudo de um ecossistema florestal.</p>
+        </div>
+         <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow bounceIn" src="Imagens/farm.png"> <br><br>  Assistência técnica</h4>
+          <p class="description"> Fundamental para o sucesso do manejo florestal comunitário e familiar, tratando-se do auxílio na recomendação, correção e identificação de falhas na execução dos tratos silviculturas em povoamentos florestais.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <h4 class="heading"><img class="wow bounceIn" src="Imagens/recycled-paper.png"> <br><br>  Licenciamento ambiental</h4>
+          <p class="description"> Procedimento administrativo realizado pelo órgão ambiental competente, que pode ser federal, estadual ou municipal, para licenciar a instalação, ampliação, modificação e operação de atividades e empreendimentos que utilizam recursos naturais, ou que sejam potencialmente poluidores ou que possam causar degradação ambiental.  As licenças ambientais estabelecem as condições para que a atividade ou o empreendimento cause o menor impacto possível ao meio ambiente.</p>
         </div>
       </div>
     </div>
@@ -164,16 +284,24 @@
       <hr class="linha">
       <center><div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3">
-          <div class="ccr"><img src="Imagens/ccr.png" width="250px"></div>
+          <a href="http://coral.ufsm.br/ccr/" target="_blank">
+            <div class="ccr"><img src="Imagens/ccr.png" width="250px"></div>
+          </a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-          <div class="compact"><img src="Imagens/compact.png" width="250px"></div>
+          <a href="http://compactjr.com/" target="_blank">
+            <div class="compact"><img src="Imagens/compact.png" width="250px"></div>
+          </a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-          <div class="nejesm"><img src="Imagens/nejesm.png" width="250px"></div>
+          <a href="http://coral.ufsm.br/nejsm/" target="_blank">
+            <div class="nejesm"><img src="Imagens/nejesm.png" width="250px"></div>
+          </a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-          <div class="fejers"><img src="Imagens/fejers.png" width="250px"></div>
+          <a href="http://fejers.org.br/" target="_blank">
+            <div class="fejers"><img src="Imagens/fejers.png" width="250px"></div>
+          </a>
         </div>
         </div></center>
 
@@ -195,7 +323,7 @@
     <div class="container">
       <div class="row">
         <div class="row text-center">
-          <h2 class="animated  wow">Contatos</h2>
+          <h2>Contatos</h2>
            <hr width="50%">
         </div>
         <div class="col-lg-10 col-lg-offset-1">
