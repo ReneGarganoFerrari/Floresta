@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.alinha-esquerda{
+  text-align: left;
+
+}
+
 .offset {
   position: relative;
   top: -35px;
@@ -106,8 +111,44 @@
 
 a {
     color: white !important;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+
 
 html, body {
   height: 100%;
@@ -382,7 +423,7 @@ header img {
 }
 
 .fejers {
-  margin-top: 0%; 
+  margin-top: 0%;
 
 }
 
@@ -403,7 +444,7 @@ header img {
   }
 
   .fejers {
-    margin-top: 10%; 
+    margin-top: 10%;
     margin-bottom: 10%;
 
   }

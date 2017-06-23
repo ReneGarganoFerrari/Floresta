@@ -3,11 +3,16 @@ $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  //yolo
+  .not('[href="#collapseOne"]')
+  .not('[href="#collapseTwo"]')
+  .not('[href="#collapseThree"]')
+  .not('[href="#collapseFour"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
