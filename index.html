@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="shortcut icon" type="image/png" href="imagens/ico.png"  />
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -441,31 +440,9 @@
   <script src="js/scroll.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-
-  <script>
-    function toggleIcon(e) {
-      $(e.target)
-          .prev('.panel-heading')
-          .find(".more-less")
-          .toggleClass('glyphicon-plus glyphicon-minus');
-    }
-  $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-  $('.panel-group').on('shown.bs.collapse', toggleIcon);
-  </script>
-
-  <script>
-  $(function() {
-    $(window).on("scroll", function() {
-      if($(window).scrollTop() > 50) {
-        $(".navbar-fixed-top").addClass("navbar-custom");
-      } else {
-        $(".navbar-fixed-top").removeClass("navbar-custom");
-      }
-    });
-  });
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/wowInit.js"></script>
+  <script src="js/toggleIcon.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
