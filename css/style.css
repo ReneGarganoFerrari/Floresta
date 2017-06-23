@@ -285,7 +285,7 @@ header img {
 }
 @media only screen and (max-width: 1024px) {
   .BACK1 img {
-    margin-top: 50%;
+    margin-top: 25%;
   }
 
   .transicao {
