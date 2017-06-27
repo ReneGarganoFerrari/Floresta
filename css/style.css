@@ -32,11 +32,11 @@
 }
 
 .navbar-brand {
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .navbar-custom .navbar-brand {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 #myNavbar {
@@ -58,7 +58,7 @@
   max-width: 25px;
   max-height: 15px;
   overflow: visible;
-  margin-top: 15px;
+  margin-top: 10px;
   background-color: rgb(0,0,0);
   height: 10px;
   transition: background .6s linear;
@@ -66,7 +66,6 @@
 
 .navbar-custom {
   height: 50px;
-  padding: 1px;
   background: rgb(0,0,0);
   -webkit-transition: background .6s linear;
   -moz-transition: background .6s linear;
@@ -318,7 +317,7 @@ header img {
 
 @media only screen and (max-width: 767px) {
  .navbar-custom .navbar-brand{
-  margin-top: 3px;
+  margin-top: 2px;
   max-height: 30px;
   max-width: 40px;
   }
@@ -326,7 +325,7 @@ header img {
 
 @media only screen and (max-width: 767px) {
  .navbar-brand{
-  margin-top: 3px;
+  margin-top: 2px;
   max-height: 30px;
   max-width: 40px;
   }
@@ -334,7 +333,7 @@ header img {
 
 @media only screen and (max-width: 767px) {
  .navbar-toggle{
-  margin-top: 5px;
+  margin-top: 10px;
   max-width: 40px;
   max-height: 23px;
   overflow: visible;
@@ -343,8 +342,8 @@ header img {
 
 @media only screen and (max-width: 767px) {
  .navbar-custom .navbar-toggle{
-  margin-top: 5px;
-  max-width: 35px;
+  margin-top: 8px;
+  max-width: 40px;
   max-height: 30px;
   overflow: visible;
   }
@@ -358,7 +357,7 @@ header img {
 
 @media only screen and (max-width: 767px) {
  .navbar-custom .navbar-collapse{
-  margin-top: 15px;
+  margin-top: 13px;
   }
 }
 
