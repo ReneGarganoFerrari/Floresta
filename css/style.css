@@ -186,21 +186,8 @@ header img {
 }
 
 @font-face {
-  font-family: "Ubuntu";
-  src: url("../fonts/Ubuntu-R.ttf") format("truetype");
-
-}
-
-
-@font-face {
   font-family: "breeSerif";
   src: url("../fonts/BreeSerif.otf") format("truetype");
-
-}
-
-@font-face {
-  font-family: "njnaruto";
-  src: url("../fonts/njnaruto.ttf") format("truetype");
 
 }
 
