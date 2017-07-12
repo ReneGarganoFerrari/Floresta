@@ -290,8 +290,16 @@ header img {
     margin-top: 5%;
   }
 
-  .col-lg-6, .col-md-6, .text-center{
+  .BACK3 .col-lg-6{
     margin-bottom: 10%;
+  }
+
+  ul li a{
+    padding: 0 !important;
+    height: 37px;
+    float: left; 
+    line-height: 37px !important;
+    width: 100%;
   }
 
 }
@@ -434,4 +442,8 @@ header img {
     margin-bottom: 10%;
 
   }
+}
+
+.col-lg-12 p {
+  text-align: center;
 }
